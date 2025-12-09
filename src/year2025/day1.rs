@@ -3,7 +3,6 @@ use std::{
     io::{BufRead, BufReader},
 };
 
-#[allow(dead_code)]
 pub fn part1() {
     let file = File::open("input.txt").unwrap();
     let reader = BufReader::new(file);
