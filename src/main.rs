@@ -19,6 +19,7 @@ fn main() {
         Some("y25d6p2") => year2025::day6::part2(),
         Some("y25d7p1") => year2025::day7::part1(),
         Some("y25d7p2") => year2025::day7::part2(),
+        Some("y25d8p1") => year2025::day8::part1(),
         Some("y25d9p1") => year2025::day9::part1(),
         _ => panic!(
             "Please provide a valid solution identifier, e.g., y25d1p1, y25d1p2, y25d2p1, y25d2p2, etc."
